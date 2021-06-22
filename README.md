@@ -38,5 +38,5 @@ Step 3. Add Following Permissions to Manifest file
 	
 Step 4. Add Code To Activity Which You Want to Check And Update Your App
 
-	new Updater(MainActivity.this, "hi", MainActivity.this).fetch();
+	new Updater(<YourActivity.this>, "<YourAppName>", <YourActivity.this>).fetch();
     
